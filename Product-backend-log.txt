@@ -1,0 +1,64 @@
+12 10 2022 - 14:27:15.269 INFO  [restartedMain] c.i.s.a.SpringbootWebAppApplication - Starting SpringbootWebAppApplication on MICHAELAJIRI with PID 13056 (C:\Users\michaelajiri\OneDrive\Projects\Java Backend Apps\springboot-web-app\target\classes started by michaelajiri in C:\Users\michaelajiri\OneDrive\Projects\Java Backend Apps\springboot-web-app)
+12 10 2022 - 14:27:15.296 INFO  [restartedMain] c.i.s.a.SpringbootWebAppApplication - No active profile set, falling back to default profiles: default
+12 10 2022 - 14:27:15.523 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12 10 2022 - 14:27:15.525 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12 10 2022 - 14:27:17.908 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+12 10 2022 - 14:27:18.193 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 259ms. Found 3 JPA repository interfaces.
+12 10 2022 - 14:27:20.149 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@721db22d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12 10 2022 - 14:27:20.159 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12 10 2022 - 14:27:22.730 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6060 (http)
+12 10 2022 - 14:27:22.759 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+12 10 2022 - 14:27:22.761 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+12 10 2022 - 14:27:23.004 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12 10 2022 - 14:27:23.005 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7479 ms
+12 10 2022 - 14:27:23.955 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12 10 2022 - 14:27:24.248 INFO  [task-1] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12 10 2022 - 14:27:24.254 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12 10 2022 - 14:27:24.429 INFO  [task-1] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.17.Final
+12 10 2022 - 14:27:25.108 INFO  [task-1] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+12 10 2022 - 14:27:25.194 INFO  [restartedMain] o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19e3394e, org.springframework.security.web.context.SecurityContextPersistenceFilter@64ad7d6c, org.springframework.security.web.header.HeaderWriterFilter@37c1ed84, org.springframework.security.web.authentication.logout.LogoutFilter@2475074d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7b7407f5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18bbafdc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@628dcb96, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5732836a, org.springframework.security.web.session.SessionManagementFilter@74efd07c, org.springframework.security.web.access.ExceptionTranslationFilter@f069cb2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4fa484e5]
+12 10 2022 - 14:27:25.721 INFO  [task-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12 10 2022 - 14:27:26.101 INFO  [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+12 10 2022 - 14:27:26.801 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12 10 2022 - 14:27:26.916 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 6060 (http) with context path ''
+12 10 2022 - 14:27:26.922 INFO  [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+12 10 2022 - 14:27:27.501 INFO  [task-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12 10 2022 - 14:27:27.624 INFO  [task-1] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+12 10 2022 - 14:27:31.649 INFO  [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12 10 2022 - 14:27:31.670 INFO  [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12 10 2022 - 14:27:32.544 INFO  [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+12 10 2022 - 14:27:32.560 INFO  [restartedMain] c.i.s.a.SpringbootWebAppApplication - Started SpringbootWebAppApplication in 18.31 seconds (JVM running for 20.558)
+12 10 2022 - 14:28:15.923 INFO  [SpringContextShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+12 10 2022 - 14:28:15.928 INFO  [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+12 10 2022 - 14:28:15.935 INFO  [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12 10 2022 - 14:28:16.003 INFO  [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+12 10 2022 - 14:31:45.597 INFO  [restartedMain] c.i.s.a.SpringbootWebAppApplication - Starting SpringbootWebAppApplication on MICHAELAJIRI with PID 18572 (C:\Users\michaelajiri\Documents\GitHub\JavaApps\springboot-web-app\target\classes started by michaelajiri in C:\Users\michaelajiri\Documents\GitHub\JavaApps\springboot-web-app)
+12 10 2022 - 14:31:45.602 INFO  [restartedMain] c.i.s.a.SpringbootWebAppApplication - No active profile set, falling back to default profiles: default
+12 10 2022 - 14:31:45.711 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12 10 2022 - 14:31:45.711 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12 10 2022 - 14:31:47.794 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+12 10 2022 - 14:31:48.510 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 683ms. Found 3 JPA repository interfaces.
+12 10 2022 - 14:31:50.140 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@147d8fed' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12 10 2022 - 14:31:50.157 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12 10 2022 - 14:31:51.734 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6060 (http)
+12 10 2022 - 14:31:51.764 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+12 10 2022 - 14:31:51.766 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+12 10 2022 - 14:31:52.083 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12 10 2022 - 14:31:52.084 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6372 ms
+12 10 2022 - 14:31:52.523 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+12 10 2022 - 14:31:52.726 INFO  [task-1] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12 10 2022 - 14:31:52.757 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12 10 2022 - 14:31:52.915 INFO  [task-1] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.17.Final
+12 10 2022 - 14:31:53.377 INFO  [task-1] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+12 10 2022 - 14:31:53.595 INFO  [restartedMain] o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60731f25, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f9226ae, org.springframework.security.web.header.HeaderWriterFilter@439c190e, org.springframework.security.web.authentication.logout.LogoutFilter@1fe6f510, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6dcd367a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a1438d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b34c3b1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69730c0b, org.springframework.security.web.session.SessionManagementFilter@19948e6d, org.springframework.security.web.access.ExceptionTranslationFilter@4bc4af2d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4091a57c]
+12 10 2022 - 14:31:53.986 INFO  [task-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12 10 2022 - 14:31:54.300 INFO  [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+12 10 2022 - 14:31:54.809 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12 10 2022 - 14:31:54.962 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 6060 (http) with context path ''
+12 10 2022 - 14:31:54.971 INFO  [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+12 10 2022 - 14:31:55.039 INFO  [task-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12 10 2022 - 14:31:55.109 INFO  [task-1] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+12 10 2022 - 14:31:57.262 INFO  [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12 10 2022 - 14:31:57.279 INFO  [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12 10 2022 - 14:31:58.156 INFO  [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+12 10 2022 - 14:31:58.173 INFO  [restartedMain] c.i.s.a.SpringbootWebAppApplication - Started SpringbootWebAppApplication in 13.625 seconds (JVM running for 14.92)

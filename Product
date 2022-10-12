@@ -1,0 +1,27 @@
+02 08 2020 - 04:46:06.980 INFO  [restartedMain] c.i.s.a.SpringbootWebAppApplication - Starting SpringbootWebAppApplication on MICHAELAJIRI with PID 5840 (C:\Users\USERR\Documents\IntelliJ IDEAProjects\springboot-web-app\target\classes started by USERR in C:\Users\USERR\Documents\IntelliJ IDEAProjects\springboot-web-app)
+02 08 2020 - 04:46:07.018 INFO  [restartedMain] c.i.s.a.SpringbootWebAppApplication - No active profile set, falling back to default profiles: default
+02 08 2020 - 04:46:09.471 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+02 08 2020 - 04:46:09.557 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60ms. Found 3 JPA repository interfaces.
+02 08 2020 - 04:46:09.761 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@79281027' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+02 08 2020 - 04:46:09.765 INFO  [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+02 08 2020 - 04:46:10.008 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02 08 2020 - 04:46:10.010 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+02 08 2020 - 04:46:10.023 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+02 08 2020 - 04:46:10.182 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02 08 2020 - 04:46:10.183 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3155 ms
+02 08 2020 - 04:46:10.425 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+02 08 2020 - 04:46:10.529 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02 08 2020 - 04:46:10.590 INFO  [task-1] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02 08 2020 - 04:46:10.622 INFO  [task-1] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+02 08 2020 - 04:46:10.665 INFO  [task-1] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+02 08 2020 - 04:46:10.666 INFO  [task-1] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02 08 2020 - 04:46:10.755 INFO  [restartedMain] o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d8f7012, org.springframework.security.web.context.SecurityContextPersistenceFilter@f9b70d3, org.springframework.security.web.header.HeaderWriterFilter@1b4f904a, org.springframework.security.web.authentication.logout.LogoutFilter@2d05bc5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@16b4dc6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@697a11d1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ed00174, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17cc2982, org.springframework.security.web.session.SessionManagementFilter@383c15a6, org.springframework.security.web.access.ExceptionTranslationFilter@18bfc706, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b3fa7ec]
+02 08 2020 - 04:46:10.879 INFO  [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02 08 2020 - 04:46:10.882 INFO  [task-1] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02 08 2020 - 04:46:11.020 INFO  [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+02 08 2020 - 04:46:11.084 INFO  [task-2] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02 08 2020 - 04:46:11.443 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02 08 2020 - 04:46:11.463 INFO  [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+02 08 2020 - 04:46:11.699 INFO  [restartedMain] o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+02 08 2020 - 04:46:11.707 INFO  [restartedMain] c.i.s.a.SpringbootWebAppApplication - Started SpringbootWebAppApplication in 5.151 seconds (JVM running for 416.503)
+02 08 2020 - 04:46:11.717 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
